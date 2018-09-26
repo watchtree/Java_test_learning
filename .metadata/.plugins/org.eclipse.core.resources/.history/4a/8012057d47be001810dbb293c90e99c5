@@ -1,0 +1,15 @@
+/**
+ * 
+ * @author tree
+ *
+ */
+public class TestPrinitiveDataType3 {
+	public static void main(String[] args){
+		char a = 'T';
+		char b = 'ɱ';
+		
+		char c = '\u0061';
+		System.out.println(c);
+		
+	}
+}

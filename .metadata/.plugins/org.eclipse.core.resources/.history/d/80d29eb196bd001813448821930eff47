@@ -1,0 +1,10 @@
+
+public class TestValue {
+	public static void main(String[] args){
+		int age;
+		age=18;
+		int salary = 3000;
+		int gao;
+		System.out.println(wtt);
+	}
+}

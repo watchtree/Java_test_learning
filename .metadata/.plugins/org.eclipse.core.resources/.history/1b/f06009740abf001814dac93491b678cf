@@ -1,0 +1,19 @@
+/**
+ * 
+ * @author tree
+ *
+ */
+public class TestTypeConvert {
+	public static void main(String[] args) {
+		int a = 324;
+		long b = a;
+		double d = b;
+//		a = b;
+//		long e = 3.23;
+		float f = 234324L;
+		
+		//льюЩ
+		byte b2 = 123;
+		
+	}
+}

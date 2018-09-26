@@ -1,0 +1,9 @@
+
+public class TestPrimitiveDataType {
+	public static void main(String[] args){
+		//测试整形变量
+		int a = 15;
+		int b = 015;
+		System.out.println(b);
+	}
+}
