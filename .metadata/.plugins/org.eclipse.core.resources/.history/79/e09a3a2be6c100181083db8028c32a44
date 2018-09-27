@@ -1,0 +1,17 @@
+/**
+ * 		
+ * @author tree
+ *
+ */
+public class TestMethod {
+	public static void main(String[] args) {
+		//通过对象调用普通方法
+		TestMethod tm = new TestMethod();
+		tm.printSxt();
+		tm.printSxt();
+	}
+	void printSxt(){
+		System.out.println("Wtt");
+		System.out.println("tree");
+	}
+}
