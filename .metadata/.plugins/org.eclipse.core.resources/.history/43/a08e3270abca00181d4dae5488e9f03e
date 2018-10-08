@@ -1,0 +1,36 @@
+package cn.sxt.arrays;
+
+public class Test01 {
+	public static void main(String[] args) {
+		int[] arr01 = new int[10];//指定长度10
+		double[] arr02;
+		String[] arr03;
+		User[] arr04;
+		
+		int[] s= null;
+		s = new int[10];
+		for(int i = 0; i < 10; i++){
+			s[i] = 2*i + 1;
+			System.out.println(s[i]);
+		}
+	}
+}
+
+class User{
+	private int id;
+	private String name;
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	
+}

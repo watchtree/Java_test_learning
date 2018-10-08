@@ -1,0 +1,10 @@
+package cn.sxt.oo;
+
+import cn.sxt.oo2.Human;
+
+public class TestEncapsulation {
+	public static void main(String[] args) {
+		Human h = new Human();
+		h.name = "wtt";
+	}
+}

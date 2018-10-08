@@ -6,7 +6,6 @@
 <fullyQualifiedTypeName name="TestMethod"/>
 <fullyQualifiedTypeName name="java.util.function.IntConsumer"/>
 <fullyQualifiedTypeName name="java.util.concurrent.CountDownLatch"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="SxtStu"/>
 <fullyQualifiedTypeName name="TestThis"/>
 <fullyQualifiedTypeName name="User2"/>
@@ -26,5 +25,28 @@
 <fullyQualifiedTypeName name="java.lang.Object"/>
 <fullyQualifiedTypeName name="cn.sxt.oo2.Person"/>
 <fullyQualifiedTypeName name="cn.sxt.oo2.User"/>
+<fullyQualifiedTypeName name="cn.sxt.oo2.FatherClass"/>
+<fullyQualifiedTypeName name="cn.sxt.oo2.FatherClass2"/>
+<fullyQualifiedTypeName name="cn.sxt.oo2.ChildClass2"/>
+<fullyQualifiedTypeName name="cn.sxt.oo2.Human"/>
+<fullyQualifiedTypeName name="org.omg.CORBA.PRIVATE_MEMBER"/>
+<fullyQualifiedTypeName name="cn.sxt.oo2.Person4Encapsulation"/>
+<fullyQualifiedTypeName name="cn.sxt.oo2.Human2"/>
+<fullyQualifiedTypeName name="cn.sxt.oo2.Aniaml"/>
+<fullyQualifiedTypeName name="cn.sxt.oo2.Cat"/>
+<fullyQualifiedTypeName name="cn.sxt.oo2.Dog"/>
+<fullyQualifiedTypeName name="cn.sxt.arrays.User"/>
+<fullyQualifiedTypeName name="javax.swing.JFrame"/>
+<fullyQualifiedTypeName name="cn.sxt.game.MygameFrame"/>
+<fullyQualifiedTypeName name="java.awt.event.WindowAdapter"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.awt.Color"/>
+<fullyQualifiedTypeName name="java.awt.Font"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.awt.image.BufferedImage"/>
+<fullyQualifiedTypeName name="java.net.URL"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="javax.imageio.ImageIO"/>
+<fullyQualifiedTypeName name="cn.sxt.game.GameUtil"/>
+<fullyQualifiedTypeName name="java.awt.Image"/>
 </qualifiedTypeNameHistroy>

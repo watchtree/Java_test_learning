@@ -1,0 +1,21 @@
+package cn.sxt.game;
+
+import javax.swing.JFrame;
+/**
+ * 飞机游戏主窗口
+ * @author tree
+ *
+ */
+public class MygameFrame extends JFrame{
+	//初始化窗口
+	public void launchFrame(){
+		this.setTitle("wtt");
+		this.setVisible(true);
+		this.setSize(500, 500);
+	}
+	
+	public static void main(String[] args) {
+		MygameFrame f = new MygameFrame();
+		f.launchFrame();
+	}
+}
