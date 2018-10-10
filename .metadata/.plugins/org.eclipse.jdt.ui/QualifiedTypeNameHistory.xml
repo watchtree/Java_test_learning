@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="javax.swing.text.AbstractDocument.BranchElement"/>
 <fullyQualifiedTypeName name="java.lang.IllegalAccessError"/>
 <fullyQualifiedTypeName name="TestMethod"/>
@@ -15,7 +14,6 @@
 <fullyQualifiedTypeName name="java.sql.DatabaseMetaData"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="java.util.Stack"/>
-<fullyQualifiedTypeName name="java.lang.Math"/>
 <fullyQualifiedTypeName name="javax.swing.plaf.basic.BasicInternalFrameTitlePane.RestoreAction"/>
 <fullyQualifiedTypeName name="cn.sxt.oo2.Vehicle"/>
 <fullyQualifiedTypeName name="cn.sxt.oo2.Horse"/>
@@ -36,11 +34,9 @@
 <fullyQualifiedTypeName name="cn.sxt.oo2.Cat"/>
 <fullyQualifiedTypeName name="cn.sxt.oo2.Dog"/>
 <fullyQualifiedTypeName name="cn.sxt.arrays.User"/>
-<fullyQualifiedTypeName name="javax.swing.JFrame"/>
 <fullyQualifiedTypeName name="cn.sxt.game.MygameFrame"/>
 <fullyQualifiedTypeName name="java.awt.event.WindowAdapter"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="java.awt.Color"/>
 <fullyQualifiedTypeName name="java.awt.Font"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="java.awt.image.BufferedImage"/>
@@ -50,9 +46,18 @@
 <fullyQualifiedTypeName name="cn.sxt.game.GameUtil"/>
 <fullyQualifiedTypeName name="java.lang.Thread"/>
 <fullyQualifiedTypeName name="cn.sxt.game.MygameFrame.PaintThread"/>
-<fullyQualifiedTypeName name="java.awt.Graphics"/>
-<fullyQualifiedTypeName name="cn.sxt.game.GameObject"/>
 <fullyQualifiedTypeName name="cn.sxt.game.Plane"/>
 <fullyQualifiedTypeName name="java.awt.Image"/>
 <fullyQualifiedTypeName name="java.awt.Rectangle"/>
+<fullyQualifiedTypeName name="java.awt.event.KeyAdapter"/>
+<fullyQualifiedTypeName name="java.awt.event.KeyEvent"/>
+<fullyQualifiedTypeName name="cn.sxt.game.GameObject"/>
+<fullyQualifiedTypeName name="java.awt.Graphics"/>
+<fullyQualifiedTypeName name="java.awt.Color"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="cn.sxt.game.Shell"/>
+<fullyQualifiedTypeName name="javax.swing.JFrame"/>
+<fullyQualifiedTypeName name="java.awt.Frame"/>
+<fullyQualifiedTypeName name="cn.sxt.game.Constant"/>
+<fullyQualifiedTypeName name="cn.sxt.game.MygameFrame.KeyMonitor"/>
 </qualifiedTypeNameHistroy>
