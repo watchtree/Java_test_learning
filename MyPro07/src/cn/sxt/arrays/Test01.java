@@ -24,7 +24,7 @@ public class Test01 {
 	}
 }
 
-public class User{
+class User{
 	private int id;
 	private String name;
 	

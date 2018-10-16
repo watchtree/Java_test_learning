@@ -6,7 +6,8 @@ package cn.sxt.oo2;
  */
 
 
-/*final 加入自类不可继承*/class Aniaml{
+/*final 加入自类不可继承*/
+class Aniaml{
 	public void shout(){
 		System.out.println("叫了一声");
 	}
@@ -36,9 +37,9 @@ public class TestPolym {
 		animalCry(new Cat());
 		System.out.println();
 		
-		String
 		
-		Aniaml a1 = new Cat(); //自上而下可以转型,生成cat转化成animal
+		Cat a1 = new Cat(); 
+		//自上而下可以转型,生成cat转化成animal
 		//传的具体是哪一类就调用哪一类的方法，大大提高了程序的可扩展性
 		//编译时认为a1是animal实际是cat所以下一步还是cat输出
 		animalCry(a1);
