@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.IllegalAccessError"/>
-<fullyQualifiedTypeName name="TestMethod"/>
-<fullyQualifiedTypeName name="java.util.function.IntConsumer"/>
-<fullyQualifiedTypeName name="java.util.concurrent.CountDownLatch"/>
-<fullyQualifiedTypeName name="SxtStu"/>
-<fullyQualifiedTypeName name="TestThis"/>
-<fullyQualifiedTypeName name="User2"/>
 <fullyQualifiedTypeName name="User3"/>
 <fullyQualifiedTypeName name="User4"/>
 <fullyQualifiedTypeName name="cn.sxt.oo.User"/>
@@ -35,7 +28,6 @@
 <fullyQualifiedTypeName name="cn.sxt.game.MygameFrame"/>
 <fullyQualifiedTypeName name="java.awt.event.WindowAdapter"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="java.awt.image.BufferedImage"/>
 <fullyQualifiedTypeName name="java.net.URL"/>
 <fullyQualifiedTypeName name="java.io.IOException"/>
@@ -60,4 +52,12 @@
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="java.awt.Color"/>
 <fullyQualifiedTypeName name="java.awt.Font"/>
+<fullyQualifiedTypeName name="cn.bjsxt.oop.abstractClass.Animal"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="cn.bjsxt.oop.testInterface.MyInterface"/>
+<fullyQualifiedTypeName name="cn.bjsxt.oop.testInterface.Attack"/>
+<fullyQualifiedTypeName name="cn.bjsxt.oop.testInterface.Flyable"/>
+<fullyQualifiedTypeName name="cn.bjsxt.oop.testInterface.Stone"/>
+<fullyQualifiedTypeName name="cn.bjsxt.oop.testInterface.InterfaceB"/>
+<fullyQualifiedTypeName name="cn.bjsxt.oop.testInterface.InterfaceC"/>
 </qualifiedTypeNameHistroy>
