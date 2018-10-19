@@ -1,0 +1,27 @@
+package cn.bjsxt.eleven;
+
+
+
+public class Outer {
+	 public static void main(String[] args) {
+//		Nose n = new Nose();//不能使用内部类
+		 Face f = new Face();
+		 Face.Nose n = f.new Nose();
+		 n.breath();
+		 
+	}
+}
+
+class Face{
+	int type =20;
+	
+	//内部类
+	class Nose{
+		String type;
+		void breath(){
+			System.out.println(type);
+			System.out.println(Face.this.type);
+			System.out.println("呼吸");
+		}
+	}
+}
