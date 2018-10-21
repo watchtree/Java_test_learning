@@ -11,10 +11,8 @@ public class Test01 {
 		StringBuilder sb1 = new StringBuilder(32);//字符串长度为32
 		StringBuilder sb2 = new StringBuilder("avbc");//创建4+16的字符串数组长度 
 		
-		
-		//有很多重载方法都可用
 		sb2.append("efg");
-		sb2.append(true).append(321).append("随便");//通过returnthis实现方法链
+		sb2.append(true);
 		System.out.println(sb2);
 	}
 }

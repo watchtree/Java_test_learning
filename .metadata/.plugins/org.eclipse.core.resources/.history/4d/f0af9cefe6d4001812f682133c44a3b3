@@ -55,29 +55,6 @@ public class TestString {
 		//转大写和小写
 		System.out.println("Abcbd".toLowerCase());
 		System.out.println("Abcbd".toUpperCase());
-		
-		System.out.println("#####################");
-		
-		String gh = "a";
-		for (int i=0; i < 10; i++){
-			gh += i;
-		}//这样会导致空间的浪费，导致对象过多（11个对象）
-		System.out.println(gh);
-		
-		
-		String gh1 = new String("a");//代表两个对象一个“a"一个newString对象
-		for (int i=0; i < 10; i++){
-			gh1 += i;
-		}//这样会导致空间的浪费，导致对象过多（12个对象）
-		System.out.println(gh1);	
-		
-		
-		//改进利用StringBuilder
-		StringBuilder gh2 = new StringBuilder("a");//建立16+1的字符串
-		for (int i = 0;i < 1000; i++){
-			gh2.append(i);//数组自带扩容append过程
-		}//节省了对象空间 
-		System.out.println(gh2);
 	}
-			 		
+					
 }

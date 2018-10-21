@@ -73,10 +73,10 @@ public class TestString {
 		
 		
 		//改进利用StringBuilder
-		StringBuilder gh2 = new StringBuilder("a");//建立16+1的字符串
+		StringBuilder gh2 = new StringBuilder("a");
 		for (int i = 0;i < 1000; i++){
-			gh2.append(i);//数组自带扩容append过程
-		}//节省了对象空间 
+			gh2.append(i);
+		}
 		System.out.println(gh2);
 	}
 			 		

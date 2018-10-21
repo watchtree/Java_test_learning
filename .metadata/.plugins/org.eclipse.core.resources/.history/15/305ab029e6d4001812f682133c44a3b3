@@ -1,5 +1,4 @@
 /**
- * String成为不可变字符序列
  * 作业：
  * 练习String类的常用方法
  * 结合数组查看源码
@@ -40,44 +39,7 @@ public class TestString {
 		String str88 = str8.trim();//去除首尾所有空格
 		System.out.println(str88.length());
 		
-		//忽视大小写比较字符串
 		System.out.println("ABC".equalsIgnoreCase("abc"));
-		
-		//从前检查字符串索引和从后检查
-		System.out.println("Abcbd".indexOf('b'));
-		System.out.println("Abcbd".lastIndexOf('b'));
-		
-		//是否为语句开头或末尾
-		System.out.println("Abcbd".startsWith("Ab"));
-		System.out.println("Abcbd".endsWith("bd"));
-		
-		
-		//转大写和小写
-		System.out.println("Abcbd".toLowerCase());
-		System.out.println("Abcbd".toUpperCase());
-		
-		System.out.println("#####################");
-		
-		String gh = "a";
-		for (int i=0; i < 10; i++){
-			gh += i;
-		}//这样会导致空间的浪费，导致对象过多（11个对象）
-		System.out.println(gh);
-		
-		
-		String gh1 = new String("a");//代表两个对象一个“a"一个newString对象
-		for (int i=0; i < 10; i++){
-			gh1 += i;
-		}//这样会导致空间的浪费，导致对象过多（12个对象）
-		System.out.println(gh1);	
-		
-		
-		//改进利用StringBuilder
-		StringBuilder gh2 = new StringBuilder("a");//建立16+1的字符串
-		for (int i = 0;i < 1000; i++){
-			gh2.append(i);//数组自带扩容append过程
-		}//节省了对象空间 
-		System.out.println(gh2);
 	}
-			 		
+					
 }
