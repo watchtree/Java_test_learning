@@ -6,7 +6,7 @@ package cn.bjsxt.stringbuilder;
  */
 public class Test02 {
 	public static void main(String[] args) {
-		String 
+
 		StringBuilder sb =  new StringBuilder("abcdefrgdfkhhlmnwdsfzxczx");
 		sb.delete(3, 5).delete(3, 5);
 		System.out.println(sb);

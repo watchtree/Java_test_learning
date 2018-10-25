@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="cn.sxt.oo.User"/>
-<fullyQualifiedTypeName name="java.sql.DatabaseMetaData"/>
-<fullyQualifiedTypeName name="java.util.Stack"/>
-<fullyQualifiedTypeName name="javax.swing.plaf.basic.BasicInternalFrameTitlePane.RestoreAction"/>
 <fullyQualifiedTypeName name="cn.sxt.oo2.Vehicle"/>
 <fullyQualifiedTypeName name="cn.sxt.oo2.Horse"/>
 <fullyQualifiedTypeName name="cn.sxt.oo2.Student"/>
@@ -60,4 +56,8 @@
 <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
 <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="cn.bjsxt.array2.Matrix"/>
+<fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="com.sun.jndi.url.iiopname.iiopnameURLContextFactory"/>
 </qualifiedTypeNameHistroy>
