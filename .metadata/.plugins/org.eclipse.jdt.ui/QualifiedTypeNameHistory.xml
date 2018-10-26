@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="cn.sxt.oo2.Vehicle"/>
 <fullyQualifiedTypeName name="cn.sxt.oo2.Horse"/>
 <fullyQualifiedTypeName name="cn.sxt.oo2.Student"/>
 <fullyQualifiedTypeName name="cn.sxt.oo2.TestObject"/>
@@ -55,9 +54,10 @@
 <fullyQualifiedTypeName name="cn.bjsxt.oop.testInterface.InterfaceC"/>
 <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
 <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="cn.bjsxt.array2.Matrix"/>
 <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="com.sun.jndi.url.iiopname.iiopnameURLContextFactory"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
 </qualifiedTypeNameHistroy>
