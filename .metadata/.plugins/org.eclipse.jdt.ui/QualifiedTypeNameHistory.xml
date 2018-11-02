@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="cn.sxt.oo2.Horse"/>
-<fullyQualifiedTypeName name="cn.sxt.oo2.Student"/>
-<fullyQualifiedTypeName name="cn.sxt.oo2.TestObject"/>
-<fullyQualifiedTypeName name="cn.sxt.oo2.Person2"/>
-<fullyQualifiedTypeName name="java.lang.Object"/>
-<fullyQualifiedTypeName name="cn.sxt.oo2.Person"/>
-<fullyQualifiedTypeName name="cn.sxt.oo2.User"/>
-<fullyQualifiedTypeName name="cn.sxt.oo2.FatherClass"/>
 <fullyQualifiedTypeName name="cn.sxt.oo2.FatherClass2"/>
 <fullyQualifiedTypeName name="cn.sxt.oo2.ChildClass2"/>
 <fullyQualifiedTypeName name="cn.sxt.oo2.Human"/>
@@ -20,7 +12,6 @@
 <fullyQualifiedTypeName name="cn.sxt.arrays.User"/>
 <fullyQualifiedTypeName name="cn.sxt.game.MygameFrame"/>
 <fullyQualifiedTypeName name="java.awt.event.WindowAdapter"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.awt.image.BufferedImage"/>
 <fullyQualifiedTypeName name="java.net.URL"/>
 <fullyQualifiedTypeName name="java.io.IOException"/>
@@ -42,7 +33,6 @@
 <fullyQualifiedTypeName name="java.awt.Graphics"/>
 <fullyQualifiedTypeName name="cn.sxt.game.Plane"/>
 <fullyQualifiedTypeName name="cn.sxt.game.Explode"/>
-<fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="java.awt.Color"/>
 <fullyQualifiedTypeName name="java.awt.Font"/>
 <fullyQualifiedTypeName name="cn.bjsxt.oop.abstractClass.Animal"/>
@@ -58,6 +48,16 @@
 <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="com.sun.jndi.url.iiopname.iiopnameURLContextFactory"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+<fullyQualifiedTypeName name="java.text.DateFormat"/>
+<fullyQualifiedTypeName name="java.sql.Date"/>
+<fullyQualifiedTypeName name="java.util.GregorianCalendar"/>
+<fullyQualifiedTypeName name="java.util.Calendar"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="com.bjsxt.Test.FileFree"/>
+<fullyQualifiedTypeName name="java.io.File"/>
 </qualifiedTypeNameHistroy>
