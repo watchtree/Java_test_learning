@@ -1,0 +1,29 @@
+package cn.bjsxt.collectior;
+
+import java.util.HashMap;
+import java.util.Map;
+
+/**\
+ *测试map基本用法
+ * @author tree
+ *
+ */
+public class testMap {
+	public static void main(String[] args) {
+		Map map = new HashMap();
+		map.put("123", new Wife("zqc"));
+		map.put("234", new Wife("hzy"));
+		
+		Wife w = (Wife) map.get("123");
+		System.out.println(w.name);
+		
+		map.remove("123");
+		System.out.println(w.name);
+	}
+}
+class Wife{
+	String name;
+	public Wife(String name){
+		this.name = name;
+	}
+}

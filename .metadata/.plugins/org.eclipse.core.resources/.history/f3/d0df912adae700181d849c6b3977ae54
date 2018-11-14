@@ -7,7 +7,7 @@ import java.util.List;
 import org.omg.CORBA.OBJ_ADAPTER;
 
 /**
- * 自己实现一个ArrayLis
+ * 自己实现一个ArrayList
  * @author tree
  *
  */

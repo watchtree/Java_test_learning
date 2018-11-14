@@ -1,0 +1,49 @@
+package cn.bjsxt.collectior;
+
+public class SxtLinkedList {
+		private Node first;
+		private Node last;
+		private int size;
+		
+		public void add(Object obj){
+			if(first==null){
+				Node n = new Node();
+				n.setPrevious(null);
+				n.setObj(obj);
+				n.setNext(null);
+				first = n;//使链表可以找到第一个节点
+				last = n;
+			}else{
+				//直接在last后增加新的节点
+				Node n = new Node();
+				n.setPrevious(last);
+				n.setObj(obj);
+				n.setNext(null);
+				
+				last.setNext(n);
+				last = n;
+			}
+			size++;
+		}
+		
+		public int size(){
+			return size;
+		}
+		
+		public Object get(int index){
+			Node temp = null;
+			if(first!=null){
+				 temp = first;
+				 for(int i=0;i<index;i++){
+					 temp = temp.next;
+				 }
+			 }
+			return temp.obj;
+		}
+		public static void main(String[] args) {
+			SxtLinkedList list = new SxtLinkedList();
+			list.add("aaa");
+			list.add("asdaa");
+			System.out.println(list.get(0));
+		}
+}
