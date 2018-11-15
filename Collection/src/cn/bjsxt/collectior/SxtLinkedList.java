@@ -55,11 +55,21 @@ public class SxtLinkedList {
 		public Node node(int index){
 			Node temp = null;
 			if(first!=null){
-				 temp = first;
-				 for(int i=0;i<index;i++){
-					 temp = temp.next;
-				 }
-			 }
+				if(index<(size>>1)){
+					temp = first;
+					for(int i=0;i<index;i++){
+						temp = temp.next;
+					}
+				}else{
+					temp = last;
+					for(int i=size-1;i>index;i--){
+						temp = temp.previous;
+					}
+				}
+				
+				//可以从前往后找也可以从后往前找加快效率
+			
+			}
 			return temp;
 		}
 		
@@ -94,9 +104,13 @@ public class SxtLinkedList {
 			list.add("aaa");
 			list.add("asdaa");
 			list.add("2aa");
-			list.remove(1);
-			System.out.println(list.get(1));
-			list.add(1,"ccc");
-			System.out.println(list.get(1));
+			list.add("3aa");
+			list.add("4sdaa");
+			list.add("5aa");
+//			list.remove(1);
+//			System.out.println(list.get(1));
+//			list.add(1,"ccc");
+//			System.out.println(list.get(1));
+			System.out.println(list.get(4));
 		}
 }
