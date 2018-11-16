@@ -20,9 +20,7 @@ public class SxtMap002 {
 	public void put(Object key, Object value){
 		SxtEntry e = new SxtEntry(key, value);
 //		System.out.println(key.hashCode());//任意一个对象对应一个hashcode 
-		int hash= key.hashCode();
-		hash = hash<0?-hash:hash;//简易函数判定
-		int a = hash%arr.length;
+		int a = key.hashCode()%arr.length;
 		//hashCode()能够快速定位存储的位置
 		if(arr[a]==null){
 			LinkedList list = new LinkedList();
