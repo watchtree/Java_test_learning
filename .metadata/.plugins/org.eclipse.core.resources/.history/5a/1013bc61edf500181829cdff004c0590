@@ -1,0 +1,31 @@
+package cn.sort.col;
+
+import java.util.TreeSet;
+
+public class TreeSetDemo {
+	public static void main(String[] args) {
+		Person p1 = new Person("p1", 100);
+		Person p2 = new Person("p2", 1000);
+		Person p3 = new Person("p3", 2000);
+		Person p4 = new Person("p4", 50);
+		
+		//依次存放到TreeSet容器中,使用排序的业务类，可用于解耦（匿名内部类）
+		TreeSet<Person> persons = new TreeSet<Person>(
+					new java.util.Comparator<Person>(){
+
+						@Override
+						public int compare(Person o1, Person o2) {
+							// TODO Auto-generated method stub
+							return o1.getHandsome()-o2.getHandsome();
+						}
+						
+					}
+				);
+		persons.add(p1);
+		persons.add(p2);
+		persons.add(p3);
+		persons.add(p4);
+		System.out.println(persons);
+		
+	}
+}

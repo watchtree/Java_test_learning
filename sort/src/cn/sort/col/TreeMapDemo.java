@@ -1,0 +1,32 @@
+package cn.sort.col;
+
+import java.util.Set;
+import java.util.TreeMap;
+
+public class TreeMapDemo {
+	public static void main(String[] args) {
+		Person p1 = new Person("p1", 100);
+		Person p2 = new Person("p2", 1000);
+		Person p3 = new Person("p3", 2000);
+		Person p4 = new Person("p4", 50);
+		
+		TreeMap<Person, String> map = new TreeMap<Person, String>(
+					new java.util.Comparator<Person>(){
+
+						@Override
+						public int compare(Person o1, Person o2) {
+							// TODO Auto-generated method stub
+							return o1.getHandsome()-o2.getHandsome();
+						}
+					}
+				);
+		map.put(p1, "test");
+		map.put(p2, "test");
+		map.put(p3, "test");
+		map.put(p4, "test");
+		
+		//²é¿´¼ü
+		Set<Person> persons = map.keySet();
+		System.out.println(persons);
+	}
+}

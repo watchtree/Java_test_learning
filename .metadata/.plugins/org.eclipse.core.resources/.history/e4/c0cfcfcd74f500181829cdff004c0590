@@ -1,0 +1,22 @@
+package cn.sort.innerType;
+
+import javax.tools.JavaCompiler;
+
+/**
+ * 排序规则的业务类
+ * @author tree
+ *
+ */
+public class StringComp implements java.util.Comparator<String>{
+	/*
+	 * 按长度比较
+	 * @see java.util.Comparator#compare(java.lang.Object, java.lang.Object)
+	 */
+	@Override
+	public int compare(String o1, String o2) {
+		int len1 = o1.length();
+		int len2 = o2.length();
+		return len2-len1;
+	}
+	
+}

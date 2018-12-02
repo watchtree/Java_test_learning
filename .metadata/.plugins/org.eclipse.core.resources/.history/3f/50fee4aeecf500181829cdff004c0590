@@ -1,0 +1,20 @@
+package cn.sort.col;
+
+import java.util.TreeSet;
+
+public class TreeSetDemo {
+	public static void main(String[] args) {
+		Person p1 = new Person("p1", 100);
+		Person p2 = new Person("p2", 1000);
+		Person p3 = new Person("p3", 2000);
+		Person p4 = new Person("p4", 50);
+		
+		//依次存放到TreeSet容器中
+		TreeSet<Person> persons = new TreeSet<Person>();
+		persons.add(p1);
+		persons.add(p2);
+		persons.add(p3);
+		persons.add(p4);
+		
+	}
+}
